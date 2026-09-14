@@ -99,6 +99,31 @@
       .contact-us .contact-dec {
         display: none;
       }
+
+      /* Equal height blog/portfolio cards within the same row */
+      .our-blog .row:last-child {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+      }
+      .our-blog .row:last-child > [class*="col-"] {
+        display: flex;
+      }
+      .our-blog .left-image {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .our-blog .left-image .info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .our-blog .left-image .info .inner-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
     </style>
 <!--
     
