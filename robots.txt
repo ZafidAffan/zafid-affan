@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://zafidaffan.example.com/sitemap.xml
+ 
+Sitemap: https://zafid-affan.vercel.app/sitemap.xml
